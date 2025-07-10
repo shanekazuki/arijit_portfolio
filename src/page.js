@@ -49,6 +49,11 @@ export default function Portfolio() {
     }
   };
 
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 
 
   return (
