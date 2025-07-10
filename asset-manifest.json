@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/arijit_portfolio/static/css/main.62399f9f.css",
+    "main.js": "/arijit_portfolio/static/js/main.bed5de1a.js",
+    "static/js/453.3390c36c.chunk.js": "/arijit_portfolio/static/js/453.3390c36c.chunk.js",
+    "index.html": "/arijit_portfolio/index.html",
+    "main.62399f9f.css.map": "/arijit_portfolio/static/css/main.62399f9f.css.map",
+    "main.bed5de1a.js.map": "/arijit_portfolio/static/js/main.bed5de1a.js.map",
+    "453.3390c36c.chunk.js.map": "/arijit_portfolio/static/js/453.3390c36c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62399f9f.css",
+    "static/js/main.bed5de1a.js"
+  ]
+}
