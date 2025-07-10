@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import './Portfolio.css';
 
 export default function Portfolio() {
-  const [darkMode, setDarkMode] = useState(false);
+  const darkMode = true;
 
   const sectionVariants = {
     hidden: { opacity: 0, y: 50, scale: 0.95 },
@@ -51,14 +51,8 @@ export default function Portfolio() {
 
   return (
     <div className={`portfolio-container ${darkMode ? 'dark' : 'light'}`}>
-      <header className={`portfolio-header ${darkMode ? 'dark' : 'light'}`}>
+      <header className={`portfolio-header dark`}>
         <h1 className="portfolio-title">Arijit Bera</h1>
-        <button 
-          onClick={() => setDarkMode(!darkMode)} 
-          className={`theme-toggle ${darkMode ? 'dark' : 'light'}`}
-        >
-          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
-        </button>
       </header>
 
       <main className="portfolio-main">
