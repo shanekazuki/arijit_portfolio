@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import './Portfolio.css';
+// import ContactForm from './ContactForm';
 
 export default function Portfolio() {
   const darkMode = true;
@@ -130,13 +131,11 @@ export default function Portfolio() {
               {
                 degree: "ISC (Class XII)",
                 status: "Completed",
-                percentage: "73%",
                 description: "Higher Secondary Education with Computer Science as main subject."
               },
               {
                 degree: "ICSE (Class X)",
                 status: "Completed", 
-                percentage: "73%",
                 description: "Secondary Education with strong foundation in core subjects."
               }
             ].map((edu, index) => (
@@ -154,7 +153,6 @@ export default function Portfolio() {
                   <h3 className="education-degree">{edu.degree}</h3>
                   <div className="education-status">
                     <span className="status-badge">{edu.status}</span>
-                    {edu.percentage && <span className="percentage">{edu.percentage}</span>}
                   </div>
                 </div>
                 <p className="education-description">{edu.description}</p>
@@ -271,6 +269,7 @@ export default function Portfolio() {
               </motion.div>
             ))}
           </div>
+          {/* <ContactForm /> Removed */}
         </motion.section>
       </main>
 
