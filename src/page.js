@@ -125,7 +125,6 @@ export default function Portfolio() {
               {
                 degree: "BCA (Bachelor of Computer Applications)",
                 status: "GRADUATE",
-                percentage: "",
                 description: "Bachelor's degree in Computer Applications with focus on programming, web development, and database systems."
               },
               {
